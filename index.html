@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        
+    </head>
+    <body>
+        <!-----heading----->
+
+        <div class="hero">
+            <nav>
+                <h2 class="logo">Portfo<span>lio</span></h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+                <a href="https://discord.gg/fWvVbGkq" class="btn">Discord</a>
+            </nav>
+
+            <div class="content">
+                <h4>Hello, I'm</h4>
+                <h1>Praveen <span>Navanjana</span></h1>
+                <h3>Software Engineering Undergraduate at University of Westminster</h3>
+                <div class="newslatter">
+
+                    <form onsubmit="generateMailtoLink()">
+                        <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                        <input type="submit" name="submit" value="Contact me">
+                    </form>
+
+            </div>
+        </div>
+        </div>
+
+        <!---About section-->
+        <section id="about"></section>
+        <section class="about">
+            <div class="main">
+                <img src="https://media.discordapp.net/attachments/1031430610960523276/1141805216937803786/image.png?width=480&height=480">
+                <div class="about-text">
+                    <h2>About <span>me</span></h2>
+                    <h5>Developer & Designer</h5>
+                    <p>Hello, my name is Praveen Navanjana, and I am a second-year undergraduate software engineering student at the Informatics Institute of Technology, which is associated with the University of Westminster. I am a driven individual searching for a chance to leverage my technological skills in web development. I'm also a very diligent and devoted person who can work in a difficult environment to serve the greater good.</p>
+                    <button type="button" onclick="window.location.href='https://discord.gg/fWvVbGkq'">Let's Talk</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!----Projects section-->
+        <section id="Projects"></section>
+        <div class="Projects">
+            <div class="title">
+                <h2>Proje<span>cts</span></h2>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <i class="fa-brands fa-chrome"></i>
+                    <h5>Web Development</h5>
+                    <div class="pra">
+                        <p>Mrcricket website<br>reborn roleplay website</p>
+                        <p style="text-align: center;">
+                            <a class="button" href="https://github.com/PraveenNavanjana"> Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h5>software Development</h5>
+                    <div class="pra">
+                        <p>Skin Consultation Manager<br>Paragraph summaryzer<br>Cruise ship boarding System</p>
+                        <p style="text-align: center;">
+                            <a class="button" href="https://github.com/PraveenNavanjana"> Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <i class="fa-brands fa-android"></i>
+                    <h5>Other Projects</h5>
+                    <div class="pra">
+                        <p>Bus N'route Application<br>BoilHeater Project</p>
+                        <p style="text-align: center;">
+                            <a class="button" href="https://github.com/PraveenNavanjana"> Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-----Skills section-->
+
+        <section id="Skills"></section>
+        <section class="Skills">
+            <div class="main">
+                <div class="Skills-text">
+                    <h2>Skil<span>ls</span></h2>
+                    <p>With a solid academic background as an undergraduate, I've cultivated proficiency in diverse programming languages like Java and Python. My project engagements have further refined my capabilities, spanning HTML, CSS, JavaScript, Flask/FastAPIs, PHP, and SQL. Proficiently versed in version control with Git, I possess an adeptness at problem-solving and critical thinking. My enthusiasm for addressing intricate challenges drives me to innovate solutions, enhancing user experiences.</p>
+                    <img id="gifImage" src="https://cdn.discordapp.com/attachments/836447745405485126/1141937653248446516/1_fIKVJUcZWHakb5y1KUJQ_A.gif" alt="GIF Image" style="width: 500px; height: auto;">
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+        <!----Contact me--->
+        <section id="contact"></section>
+        <div class="contact-me">
+            <h2>Contact <span>Me</span></h2>
+         <p>Feel free to reach out if there's anything you'd like to discuss or share.<br> I'm here to assist in any way I can.</p>
+         <a href="mailto:your.navanjanapraveen0@gmail.com" target="_blank">
+            <button>Contact Me</button>
+         </a>
+        </div>
+
+
+        <!----footer--->
+        
+        <footer>
+        <p>Praveen Navanjana</p>
+        <p>"Exploring Creativity, One Project at a Time."</p>
+        <div class="social">
+            <a href="https://www.facebook.com/praveen.navanjana.3/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/mr_pravee/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/praveennavanja1?t=vyQq7AQRWIWqmaQzhNRgEw&s=09"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/PraveenNavanjana"><i class="fa-brands fa-github"></i></i></a>
+            <a href="https://www.linkedin.com/in/praveen-navanjana-aa8251258/"><i class="fa-brands fa-linkedin"></i></i></a>
+        </div>
+        <p class="end">Copyright © 2023 Praveen Navanjana</p>
+        </footer>
+
+
+        <script>
+            function generateMailtoLink() {
+                const emailInput = document.getElementById("mail");
+                const email = emailInput.value;
+                
+                if (email) {
+                    const mailtoLink = "mailto:your.navanjanapraveen0@gmail.com?subject=New%20Contact%20Form%20Submission&body=Email:%20" + encodeURIComponent(email);
+                    window.location.href = mailtoLink;
+                }
+            }
+            </script>
+    </body>
+</html>
