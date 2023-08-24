@@ -4,6 +4,9 @@
     font-family:'Josefin Sans' , sans-serif;
     box-sizing: border-box;
 }
+
+
+
 .hero{
     height: 100vh;
     width: 100%;
@@ -111,6 +114,59 @@ h4{
     top: 6px;
     right: 6px;
 }
+/* Your existing CSS rules */
+
+/* New responsive styles */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 70px;
+    left: 0;
+    z-index: 1;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  nav ul li {
+    padding: 15px;
+  }
+
+  nav .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    z-index: 2;
+  }
+
+  .content {
+    position: relative;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter form input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
 .about{
     width: 100%;
     padding: 100px 0px;
@@ -228,11 +284,37 @@ h5{
     border-radius: 30px;
     transition: .4s;
 }
-.card .buton:hover{
+.card .button:hover{
     background-color: transparent;
     border: 2px solid #05b4ff;
     cursor: pointer;
 }
+
+
+.button{
+    background-color: #05b4ff;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid #05b4ff;
+    cursor: pointer;
+}
+.pra p{
+        color: rgb(93, 195, 230);
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+        text-align: center;
+}
+
 /*--------*/
 .Skills{
     width: 100%;
